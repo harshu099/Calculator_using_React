@@ -1,14 +1,14 @@
 import React from 'react'
 import './Input.css'
 
-const input = () => {
+const input = ({text, result}) => {
     return (
         <div className='input-wrapper'>
             <div className="result">
-                result
+                {result}
             </div>
             <div className="text">
-                text
+                {text}
             </div>
         </div>
     )
