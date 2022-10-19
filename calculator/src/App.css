@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    background-image: url(./containers/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .App {

@@ -32,27 +32,27 @@ const App = () => {
           <Button symbol="7" handleClick={addToText} />
           <Button symbol="8" handleClick={addToText} />
           <Button symbol="9" handleClick={addToText} />
-          <Button symbol="/" color="#f2a33c" handleClick={addToText} />
+          <Button symbol="/" color="#f58a07" handleClick={addToText} />
         </div>
         <div className='row' >
           <Button symbol="4" handleClick={addToText} />
           <Button symbol="5" handleClick={addToText} />
           <Button symbol="6" handleClick={addToText} />
-          <Button symbol="*" color="#f2a33c" handleClick={addToText} />
+          <Button symbol="*" color="#f58a07" handleClick={addToText} />
         </div>
         <div className='row' >
           <Button symbol="1" handleClick={addToText} />
           <Button symbol="2" handleClick={addToText} />
           <Button symbol="3" handleClick={addToText} />
-          <Button symbol="+" color="#f2a33c" handleClick={addToText} />
+          <Button symbol="+" color="#f58a07" handleClick={addToText} />
         </div>
         <div className='row' >
           <Button symbol="0" handleClick={addToText} />
           <Button symbol="." handleClick={addToText} />
-          <Button symbol="=" handleClick={calculateResult} />
-          <Button symbol="-" color="#f2a33c" handleClick={addToText} />
+          <Button symbol="=" color="#f58a07" handleClick={calculateResult} />
+          <Button symbol="-" color="#f58a07" handleClick={addToText} />
         </div>
-        <Button symbol="Clear" color="#fa574b" handleClick={clearText} />
+        <Button symbol="Clear" color="#fa0202" handleClick={clearText} />
       </div>
     </div>
   )
